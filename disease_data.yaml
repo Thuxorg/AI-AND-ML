@@ -1,0 +1,9 @@
+path: dataset  # Root directory of the dataset
+train: images/train  # Path to training images
+val: images/val  # Path to validation images
+
+# Number of classes
+nc: 3  # Number of diseases
+
+# Class names
+names: ['COCCI', 'HEALTHY', 'NCD','SALMO']

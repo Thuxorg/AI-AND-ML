@@ -1,0 +1,10 @@
+ultralytics>=8.0.0   # For YOLOv8 (includes training, validation, and inference)
+opencv-python        # For image processing
+matplotlib           # For visualizing results
+numpy                # For numerical operations
+pandas               # For handling datasets
+torch>=1.9.0         # PyTorch (backbone for YOLO models)
+torchvision>=0.10.0  # PyTorch vision library
+scikit-learn         # For splitting and analyzing datasets
+
+to install all the above on terminall write = pip install -r requirements.txt
